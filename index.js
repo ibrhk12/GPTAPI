@@ -1,13 +1,13 @@
-require(dotenv).config();
+require("dotenv").config();
 const axios = require("axios");
 
 async function callOpenAI(prompt) {
   const API_KEY = process.env.OPENAI_API_KEY;
   try {
     const response = await axios.post(
-      "https://api.openai.com/v1/chat/completions",
+      "https://api.openai.com/v1/completions/davinci",
       {
-        model: "gpt-4o-mini",
+        model: "text-davinci-003",
         prompt: prompt,
         max_tokens: 100,
         temprature: 0.7,
