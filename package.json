@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "name": "gptapi",
+  "version": "1.0.0",
+  "description": "calling ChatGPT using API key",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ibrhk12/GPTAPI.git"
+  },
+  "author": "Ibraim Kassem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibrhk12/GPTAPI/issues"
+  },
+  "homepage": "https://github.com/ibrhk12/GPTAPI#readme"
+}
